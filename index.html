@@ -10,27 +10,17 @@
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
+  <!-- 顶部介绍 -->
   <header class="bg-green-600 text-white p-6">
     <h1 class="text-3xl font-bold text-center">Monster Survivors</h1>
     <p class="text-center mt-2">Survive the apocalypse. Kill monsters. Upgrade and thrive.</p>
   </header>
 
-  <main class="max-w-5xl mx-auto px-4 py-8 space-y-10">
+  <!-- 游戏说明 -->
+  <main class="max-w-4xl mx-auto px-4 py-8 space-y-10">
     <section>
       <h2 class="text-2xl font-semibold mb-2">About the Game</h2>
       <p>Monster Survivors is a thrilling online survival game where you face waves of enemies, collect upgrades, and unlock powerful weapons. Can you survive till the end?</p>
-    </section>
-
-    <section>
-      <h2 class="text-2xl font-semibold mb-2">Play Now</h2>
-      <div class="aspect-w-16 aspect-h-9 w-full max-w-4xl mx-auto">
-        <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
-                class="w-full h-[480px] border rounded-lg"
-                allowfullscreen
-                loading="lazy"
-                title="Play Monster Survivors">
-        </iframe>
-      </div>
     </section>
 
     <section>
@@ -43,6 +33,17 @@
       </ul>
     </section>
   </main>
+
+  <!-- 全屏游戏 -->
+  <section class="w-full h-screen">
+    <iframe 
+      src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+      class="w-full h-full border-0"
+      allowfullscreen
+      loading="lazy"
+      title="Play Monster Survivors">
+    </iframe>
+  </section>
 
   <footer class="bg-gray-200 text-center py-4 mt-10 text-sm text-gray-600">
     &copy; 2025 MonsterSurvivors.com — All rights reserved.
